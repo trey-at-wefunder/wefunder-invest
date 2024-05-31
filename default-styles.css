@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F3F3F3;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 40px;
+}
+
+.header h3 {
+    color: #0F2440;
+    font-size: 1.5rem;
+}
+
+.header h2 {
+    color: #0F2440;
+    font-size: 3rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+.subheadline {
+    color: #0F2440;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.content-video {
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.content-video video {
+    width: 100%;
+    height: auto;
+}
+
+.highlights {
+    margin-bottom: 40px;
+    text-align: left;
+    display: inline-block;
+}
+
+.highlights ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #0F2440;
+}
+
+.highlights li {
+    margin-bottom: 10px;
+}
+
+.btn-invest, .btn-secondary {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-bottom: 40px;
+    font-size: 1rem;
+    border: 2px solid #0F2440;
+}
+
+.btn-invest {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.btn-secondary {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.btn-invest:hover, .btn-secondary:hover {
+    background-color: #007bff;
+    color: #FFFFFF;
+    border-color: #007bff;
+}
+
+.form-container {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #F3F3F3;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-container form {
+    display: inline-block;
+    text-align: left;
+}
+
+.form-container form label,
+.form-container form input {
+    display: block;
+    margin: 10px 0;
+    width: 300px;
+}
+
+.form-container form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.team-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.team-section h2 {
+    color: #0F2440;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.team-member .details {
+    text-align: left;
+    max-width: 600px;
+}
+
+.team-member .details h3 {
+    margin: 0;
+    color: #0F2440;
+    font-size: 1.2rem;
+}
+.team-member .details h4 {
+    margin: 0 0 5 0;
+    color: #0F2440;
+    font-size: .8rem;
+}
+
+.team-member .details p {
+    margin: 5px 0;
+    color: #555;
+}
